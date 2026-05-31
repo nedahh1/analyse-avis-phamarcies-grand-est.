@@ -1,4 +1,4 @@
-# analyse-avis-phamarcies-grand-est.
+# analyse-avis-pharmarcies-grand-est.
 
 # Scraping et Analyse des Avis Google Maps : Pharmacies du Grand Est
 
