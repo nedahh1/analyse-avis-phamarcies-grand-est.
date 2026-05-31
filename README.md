@@ -36,7 +36,9 @@ pharmacies-grand-est/
 ├── pharmacies_point.csv                  # Données brutes OSM (à ajouter localement)
 ├── ListingPharmaciesGrandEstfeb2026.xlsx # Fichier de référence interne (à ajouter localement)
 ├── pharmacies_grand_est.csv              # Export intermédiaire 
-├── avis_google_X_Y_propre.csv            # Sauvegardes temporaires du scraping
+├── avis_google_temp_N.csv                # Sauvegardes toutes les 10 pharmacies
+├── avis_google_X_Y_propre.csv            # Export par lot après scraping
+├── avis_google_X_Y_presentation.csv      # Lot nettoyé prêt à l'analyse
 └── pharmacies_avis_FINAL.csv / .xlsx     # Fichiers de données finaux
 ```
 
