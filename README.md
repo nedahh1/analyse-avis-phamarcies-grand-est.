@@ -38,7 +38,7 @@ pharmacies-grand-est/
 ├── pharmacies_grand_est.csv              # Export intermédiaire 
 ├── avis_google_X_Y_propre.csv            # Sauvegardes temporaires du scraping
 └── pharmacies_avis_FINAL.csv / .xlsx     # Fichiers de données finaux
-
+```
 
 Dictionnaire des données (Fichier Final)
 Le script produit un dataset pharmacies_avis_FINAL pret pour l'analyse, contenant les variables suivantes :
@@ -60,18 +60,19 @@ reponse_owner : Reponse apportee par la pharmacie a l'avis client.
 Comment tester ou relancer le script
 Si vous souhaitez faire tourner mon code sur votre ordinateur pour le tester, voici les étapes à suivre.
 Prerequis : Avoir Python 3.8+ et Google Chrome installes.
-1. Les bibliotheques à installer : Il faut d'abord installer les packages que j'ai utilises en tapant ceci dans votre terminal :
-
-```python
+1. Les bibliotheques à installer : il faut d'abord installer les packages que j'ai utilises en tapant ceci dans votre terminal :
+   
+```bash
 pip install pandas geopandas shapely selenium webdriver-manager requests openpyxl
+```
 
-2. Les fichiers de données : Pour que le script fonctionne, il faut bien penser a mettre les deux fichiers sources (pharmacies_point.csv et ListingPharmaciesGrandEstfeb2026.xlsx) dans le meme dossier que le notebook.
-3. Lancement du code : Ouvrez le notebook analyse_pharmacies_grand_est.ipynb. Dans la partie 8 (Boucle par lot), j'ai laisse deux variables que vous pouvez modifier pour éviter de faire tourner le script sur des milliers de lignes d'un coup, ce qui prendrait des heures :
+2. Les fichiers de données : pour que le script fonctionne, il faut bien penser a mettre les deux fichiers sources (pharmacies_point.csv et ListingPharmaciesGrandEstfeb2026.xlsx) dans le meme dossier que le notebook.
+3. Lancement du code : ouvrez le notebook analyse_pharmacies_grand_est.ipynb. Dans la partie 8 (Boucle par lot), j'ai laisse deux variables que vous pouvez modifier pour éviter de faire tourner le script sur des milliers de lignes d'un coup, ce qui prendrait des heures :
 
 ```python
 BATCH_SIZE = 100  # Nombre de pharmacies a scraper en meme temps
 START = 0         # Ligne de depart dans le fichier
-<img width="470" height="644" alt="image" src="https://github.com/user-attachments/assets/6d40a75c-6e4a-4ce5-b4f5-4a252242e05d" />
+```
 
 
 
