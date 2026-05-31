@@ -46,15 +46,25 @@ Dictionnaire des données (Fichier Final)
 Le script produit un dataset pharmacies_avis_FINAL pret pour l'analyse, contenant les variables suivantes :
 
 pharmacie : Nom de l'officine.
+
 ville : Commune d'implantation.
+
 code_postal : Code postal a 5 chiffres.
+
 latitude / longitude : Coordonnees spatiales WGS84.
+
 note_moyenne : Note globale de la pharmacie sur Google Maps (sur 5).
+
 nombre_avis : Volume total d'avis recenses.
+
 auteur : Pseudonyme du client ayant redige l'avis.
+
 note_avis : Note specifique laissee par le client.
+
 date : Date de publication de l'avis.
+
 avis_texte : Contenu textuel de l'avis client.
+
 reponse_owner : Reponse apportee par la pharmacie a l'avis client.
 
 
