@@ -1,4 +1,4 @@
-# analyse-avis-pharmarcies-grand-est.
+# analyse-avis-pharmarcies-grand-est
 
 # Scraping et Analyse des Avis Google Maps : Pharmacies du Grand Est
 
@@ -86,7 +86,8 @@ pip install pandas geopandas shapely selenium webdriver-manager requests openpyx
 
 ```python
 BATCH_SIZE = 100  # Nombre de pharmacies a scraper en meme temps
-START = 0         # Ligne de depart dans le fichier
+START = 1300    # Ligne de depart dans le fichier (mettre à 0 pour tout recommencer)
+
 ```
 
 
