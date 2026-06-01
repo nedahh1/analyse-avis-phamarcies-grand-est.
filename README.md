@@ -86,7 +86,7 @@ pip install pandas geopandas shapely selenium webdriver-manager requests openpyx
 
 ```python
 BATCH_SIZE = 100  # Nombre de pharmacies a scraper en meme temps
-START = 1300    # Ligne de depart dans le fichier (mettre à 0 pour tout recommencer)
+START = 0   # Ligne de depart 
 
 ```
 
